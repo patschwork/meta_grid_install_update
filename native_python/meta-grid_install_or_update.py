@@ -149,7 +149,7 @@ base_lib.set_user_settings(ini_user_settings_path, section, 'pythonExe', pythonE
 
 section="tools"
 actual_value=base_lib.get_user_settings(ini_user_settings_path, section, 'phpExe', phpExe)
-liquibasePathExe=base_lib.get_input_color("Path to PHP executable", actual_value, phpExe, user_option_search_file=os.path.basename(phpExe))
+phpExe=base_lib.get_input_color("Path to PHP executable", actual_value, phpExe, user_option_search_file=os.path.basename(phpExe))
 base_lib.set_user_settings(ini_user_settings_path, section, 'phpExe', phpExe)
 
 section="tools"
