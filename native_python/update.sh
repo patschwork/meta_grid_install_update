@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # sudo apt-get install jq
+# brew install jq
 # sudo apt-get install curl
 
 whichjq=$(which jq)
